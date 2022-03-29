@@ -1,3 +1,5 @@
-function showMessage(message) {
-    document.getElementById('message').textContent = message;
+function showMessage(message1) {
+    document.getElementById('message1').textContent = message1;
+    console.log('dsfыаыd')
+
 }
