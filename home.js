@@ -1,7 +1,8 @@
-let price=20.99
+let name ="Lenka" 
+let string1 =`Hello ${name}`
 
 
 
 
 
-showMessage(typeof price);
+showMessage(string1);
