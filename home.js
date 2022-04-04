@@ -1,4 +1,7 @@
-let price=49.99,
-name='hiking boots',
-discounted=false
-showMessage(discounted);
+let price=20.99
+
+
+
+
+
+showMessage(typeof price);
