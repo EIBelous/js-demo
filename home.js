@@ -1,8 +1,5 @@
-let name ="Lenka" 
-let string1 =`Hello ${name}`
+let amount=123
 
 
-
-
-
-showMessage(string1);
+amount=amount.toString()
+showMessage(amount+1);
