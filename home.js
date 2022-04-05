@@ -1,5 +1,7 @@
-let amount=123
+let price=20
+if(price>15) {
+    showMessage('discounted')
+}
 
 
-amount=amount.toString()
-showMessage(amount+1);
+
