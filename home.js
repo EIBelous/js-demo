@@ -1,7 +1,6 @@
-let price=20
-if(price>15) {
-    showMessage('discounted')
-}
+let price=9
 
+let message=(price>10) ? 'yes': 'no';
+showMessage(message)
 
 
