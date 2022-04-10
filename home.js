@@ -1,6 +1,3 @@
-let price=9
-
-let message=(price>10) ? 'yes': 'no';
-showMessage(message)
-
-
+for (let i=0; i<5;i++){
+    console.log(i)
+}
