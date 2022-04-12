@@ -1,5 +1,9 @@
+let person={
+    name: 'Lenka',
+age: 18,
+maried: true,
+setInfo: function(){
+    showMessage('Pupsic')
 
-
-
-
-chengepercent(30)
+}}
+person.setInfo()
