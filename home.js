@@ -1,9 +1,4 @@
-let person={
-    name: 'Lenka',
-age: 18,
-maried: true,
-setInfo: function(){
-    showMessage('Pupsic')
-
-}}
-person.setInfo()
+const button=document.getElementById('see-review')
+button.addEventListener('click', function(){
+    console.log('click')
+})
