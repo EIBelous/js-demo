@@ -1,10 +1,13 @@
 let array=['a','b','c','d','f']
-const newarray1=array.slice(1,4)
+console.log(array.indexOf('c'))
 
+let find=array.filter(function(item){
+return item>='b'
+})
 
+console.log('find array'+ find)
 
-
-
-console.log(newarray1)
-array.splice(2,2)
-console.log(array)
+array.forEach(function(item){
+    item +111
+    console.log(item)
+})
